@@ -1,0 +1,211 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-image:linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./images/katt-yukawa-K0E6E0a0R3A-unsplash_cleanup.jpg);
+    background-position: center;
+    background-blend-mode: darken;
+    min-height: 800px;
+    width: 100%;
+    background-size: 100%;
+    position: relative;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 100px;
+}
+
+.navlinks {
+    flex: 1%;
+    text-align: right;
+}
+
+.navlinks ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.navlinks ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navlinks ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background:#F9CB32;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.navlinks ul li:hover:after {
+    width: 100%;
+}
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+   
+    color: #F9CB32;
+    transition: 1s;
+}
+.ourprogram {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    transition: 0.5;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.program-col1{
+    flex-basis: 40%;
+    font-size: 200%;
+    background: #F9CB32;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: white;
+    position: relative;
+    cursor: pointer;
+}
+.btn:hover {
+   
+    color: #F9CB32;
+    transition: 1s;
+}
+.program-col2{
+    flex-basis: 40%;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.viewbtn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #F9CB32;
+    position: relative;
+    cursor: pointer;
+}
+.viewbtn:hover {
+   
+    color:black;
+    transition: 1s;
+}
+.ourmission {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.mission-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.mission-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 600;
+    margin: 10px 0;
+}
+
+.mission-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.mission-col i {
+    font-size: 40px;
+    color: #F9CB32;
+    margin-right: 10%;
+}
+.missionbtn{
+    display: inline-block;
+    text-decoration: none;
+    color: #F9CB32;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.missionbtn:hover {
+   
+    color: gray;
+    transition: 1s;
+}
+
+
+
+
+
